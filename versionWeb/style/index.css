@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.empty-div{
+    width: 5.5%;    
+    
+}
+#header-00{
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+#header-central-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header-central-content-child-one{
+    width: 73%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+#header-central-content-child-one-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+    width: 100%;
+
+    
+}
+
+
+
+
+#header-central-content-child-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
