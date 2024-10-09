@@ -2,11 +2,11 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-
 }
+
+
 .empty-div{
     width: 5.5%;    
-    
 }
 #header-00{
     width: 100%;
@@ -14,7 +14,12 @@ html, body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: orange;
+    align-items: center;
+}
+
+#header-00 img{
+    width: 13vw;
+    height: 6vw;
 }
 
 #header-central-content{
@@ -33,18 +38,14 @@ html, body{
 
 }
 
-
-
-
 #header-central-content-child-one-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     align-items: center;
     width: 100%;
-
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
 }
 
 
@@ -57,3 +58,105 @@ html, body{
     align-items: center;
     flex-grow: 1;
 }
+
+#header-central-content-child-two p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    font-size: 1.2vw;
+}
+
+#header-central-content-child-two button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    font-size: 1.2vw;
+}
+main{
+    width: 100%;
+    height: 86%;
+}
+
+#index-main-div{
+    background-image: url("../assets/main-background2.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    padding-left:  6.4%;
+    padding-right: 6.4%;
+    padding-top: 3.9%;
+    padding-bottom: 3.9%;
+    display: flex;
+    flex-direction: row;
+}
+
+#index-main-div-section{
+    width: 50%;
+    height: 85%;
+    
+    
+}
+
+#index-main-div-section h1{
+    font-size: 3.2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+#index-main-div-section p{
+    font-size: 1.8vw;
+    font-family: roboto 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    color: aliceblue;
+    padding-bottom: 1.7vw;
+}
+
+#index-main-div-section-button{
+    
+    padding-top: 2.9%;
+    padding-bottom: 2.9%;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    background-color: white; 
+    color: #4CAF50;
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-decoration: none; 
+    border-radius: 8px;
+}
+
+#index-main-div-aside{
+    width: 50%;
+    height: 85%;
+    background-color: black;
+    background-image: url("../assets/main-background.jpg");
+    background-size: cover;
+    background-position: center; 
+    border-radius: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 12vw;
+   background-color: rgb(21, 7, 7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-div{
+    color: aliceblue;
+    text-align: center;
+    padding-left: 2.5%;
+    width: 300px;
+    
+}
+
+
+/*
+footer{
+    width: 100%;
+    height: 14%;
+    background-color: orange;
+}
+*/
