@@ -95,13 +95,13 @@ footer{
 
 #main-section-two{
     padding-top: 3%;
-    background-color: aqua;
+    
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+
 }
 
 #main-section-two h2{
@@ -109,3 +109,12 @@ footer{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#main-section-two p{
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+canvas{
+    background-color: whitesmoke;
+}

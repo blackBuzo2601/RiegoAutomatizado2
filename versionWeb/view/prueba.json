@@ -1,0 +1,95 @@
+{
+    "data": [
+      {
+        "date": "2024-10-07",
+        "records": [
+          {
+            "datetime": "2024-10-07T08:15:00",
+            "temperature": 22.5,
+            "humidity": 60
+          },
+          {
+            "datetime": "2024-10-07T10:30:00",
+            "temperature": 23.1,
+            "humidity": 58
+          },
+          {
+            "datetime": "2024-10-07T12:45:00",
+            "temperature": 24.8,
+            "humidity": 55
+          },
+          {
+            "datetime": "2024-10-07T15:00:00",
+            "temperature": 25.4,
+            "humidity": 53
+          },
+          {
+            "datetime": "2024-10-07T17:15:00",
+            "temperature": 23.9,
+            "humidity": 57
+          }
+        ]
+      },
+      {
+        "date": "2024-10-08",
+        "records": [
+          {
+            "datetime": "2024-10-08T08:15:00",
+            "temperature": 21.3,
+            "humidity": 62
+          },
+          {
+            "datetime": "2024-10-08T10:30:00",
+            "temperature": 22.9,
+            "humidity": 61
+          },
+          {
+            "datetime": "2024-10-08T12:45:00",
+            "temperature": 23.7,
+            "humidity": 59
+          },
+          {
+            "datetime": "2024-10-08T15:00:00",
+            "temperature": 24.6,
+            "humidity": 56
+          },
+          {
+            "datetime": "2024-10-08T17:15:00",
+            "temperature": 22.8,
+            "humidity": 60
+          }
+        ]
+      },
+      {
+        "date": "2024-10-09",
+        "records": [
+          {
+            "datetime": "2024-10-09T08:15:00",
+            "temperature": 20.4,
+            "humidity": 65
+          },
+          {
+            "datetime": "2024-10-09T10:30:00",
+            "temperature": 21.7,
+            "humidity": 63
+          },
+          {
+            "datetime": "2024-10-09T12:45:00",
+            "temperature": 23.0,
+            "humidity": 61
+          },
+          {
+            "datetime": "2024-10-09T15:00:00",
+            "temperature": 24.2,
+            "humidity": 58
+          },
+          {
+            "datetime": "2024-10-09T17:15:00",
+            "temperature": 22.5,
+            "humidity": 64
+          }
+        ]
+      }
+    ]
+  }
+  
