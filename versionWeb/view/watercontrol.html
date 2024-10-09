@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/watercontrol.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>WaterControl Dashboard</title>
+</head>
+<body>
+    <main id="main-container">
+        <section id="main-section-one">
+            <img src="../assets/logo.png" alt="logoimage">
+            
+            <nav>
+                <a class="watercontrol-nav-button">Temperatura ambiental</a>
+                <a class="watercontrol-nav-button">Humedad ambiental</a>
+                <a class="watercontrol-nav-button">Humedad del suelo</a>
+            </nav>
+            <a id="watercontrol-goback-button" href="../view/index.html">Regresar al inicio</a>
+        </section>
+
+        <section id="main-section-two">
+            <h2>Análisis de temperatura ambiental</h2>
+            <canvas id="myChart" width="30%" height="5"></canvas>
+        </section>
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

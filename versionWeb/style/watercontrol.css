@@ -1,0 +1,111 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;    
+    height: 100%;
+    background-image: url("../assets/main-background2.jpg");
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+#main-section-one{
+    padding-left: 1%;
+    width: 16.5%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main-section-one img{
+    width: 100%;
+    height: 15%;
+    padding-bottom: 15%;
+}
+
+#main-section-one nav{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 50%;
+}
+
+.watercontrol-nav-button{
+    height: 14%;
+    width: 90%;
+    font-size: 1.3vw; 
+    background-color: #287D28; 
+    border: solid;
+    border-radius: 0.5vw;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: none; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+#watercontrol-goback-button{
+    height: 7.5%;
+    width: 90%;
+    font-size: 1.3vw; 
+    background-color:#287D28; 
+    border: solid;
+    border-radius: 0.5vw;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    color: white;
+    text-decoration: none; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+footer{
+    width: 100%;
+    height: 12vw;
+    background-color: rgb(21, 7, 7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.watercontrol-footer-div{
+    color: aliceblue;
+    text-align: center;
+    padding-left: 2.5%;
+    width: 300px;
+}
+
+#main-section-two{
+    padding-top: 3%;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#main-section-two h2{
+    font-size: 200%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
