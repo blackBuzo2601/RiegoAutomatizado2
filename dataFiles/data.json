@@ -28,5 +28,35 @@
         "humedad": 70.0,
         "fecha": "2024-10-10",
         "fecha_hora": "2024-10-10 00:02:04"
+    },
+    {
+        "temperatura": 25.1,
+        "humedad": 68.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 13:01:20"
+    },
+    {
+        "temperatura": 25.2,
+        "humedad": 68.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 13:01:51"
+    },
+    {
+        "temperatura": 25.1,
+        "humedad": 69.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 13:02:22"
+    },
+    {
+        "temperatura": 25.5,
+        "humedad": 89.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 13:02:54"
+    },
+    {
+        "temperatura": 27.7,
+        "humedad": 95.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 13:03:25"
     }
 ]
