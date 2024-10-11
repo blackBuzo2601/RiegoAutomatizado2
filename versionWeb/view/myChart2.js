@@ -17,9 +17,7 @@ fetch('../../dataFiles/data.json')
             datosChart.push(dataParseada[i].humedad);
         }
 
-        var humedadActual=0;
-        humedadActual=datosChart[datosChart.length-1];
-        document.getElementById('humidity-value').innerText = humedadActual+"%";
+        
         //como guardamos al mismo tiempo en cada array tanto el dato como la fecha y hora, siempre coincidirá
 
         //console.log(dataParseada[1]); //asi vemos el objeto, es decir, la captura completa del dato
@@ -39,6 +37,7 @@ fetch('../../dataFiles/data.json')
                 }]
             },
             options: {
+                animation:false,
                 responsive: false,  
                 scales: {
                     x: {

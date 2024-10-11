@@ -17,9 +17,6 @@ fetch('../../dataFiles/data.json')
             datosChart.push(dataParseada[i].temperatura);
         }
     
-        var temperaturaActual=0;
-        temperaturaActual=datosChart[datosChart.length-1];
-        document.getElementById('temperature-value').innerText = temperaturaActual+"°C";
         
         //como guardamos al mismo tiempo en cada array tanto el dato como la fecha y hora, siempre coincidirá
 
@@ -40,7 +37,9 @@ fetch('../../dataFiles/data.json')
                 }]
             },
             options: {
+                
                 responsive: false,  
+                animation:false,
                 scales: {
                     x: {
                         beginAtZero: false,
