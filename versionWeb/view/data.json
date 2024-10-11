@@ -1,0 +1,32 @@
+[
+    {
+        "temperatura": 28.9,
+        "humedad": 69.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 00:00:00"
+    },
+    {
+        "temperatura": 28.5,
+        "humedad": 70.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 00:00:31"
+    },
+    {
+        "temperatura": 28.6,
+        "humedad": 70.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 00:01:02"
+    },
+    {
+        "temperatura": 28.4,
+        "humedad": 70.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 00:01:33"
+    },
+    {
+        "temperatura": 28.4,
+        "humedad": 70.0,
+        "fecha": "2024-10-10",
+        "fecha_hora": "2024-10-10 00:02:04"
+    }
+]

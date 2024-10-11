@@ -1,5 +1,6 @@
 const ctx = document.getElementById('myChart').getContext('2d');
 
+
 //Cargamos el JSON
 fetch('data.json')
     .then(response => response.json())
@@ -15,6 +16,11 @@ fetch('data.json')
             etiquetasChart.push(dataParseada[i].fecha_hora);
             datosChart.push(dataParseada[i].temperatura);
         }
+    
+        var temperaturaActual=0;
+        temperaturaActual=datosChart[datosChart.length-1];
+        document.getElementById('temperature-value').innerText = temperaturaActual+"°C";
+        
         //como guardamos al mismo tiempo en cada array tanto el dato como la fecha y hora, siempre coincidirá
 
         //console.log(dataParseada[1]); //asi vemos el objeto, es decir, la captura completa del dato
@@ -29,7 +35,7 @@ fetch('data.json')
                     data: datosChart,
                     backgroundColor: 'rgba(76, 191, 122, 0.2)',
                     borderColor: 'rgba(48, 162, 93, 1)',
-                    borderWidth: 5,
+                    borderWidth: 3,
                     fill: false,
                 }]
             },
@@ -45,6 +51,7 @@ fetch('data.json')
                 }
             }
         });
+
     })
 .catch(error => console.error('Error al cargar los datos:', error));
 
