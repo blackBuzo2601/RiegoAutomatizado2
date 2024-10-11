@@ -2,7 +2,7 @@ const ctx = document.getElementById('myChart').getContext('2d');
 
 
 //Cargamos el JSON
-fetch('data.json')
+fetch('../../dataFiles/data.json')
     .then(response => response.json())
     .then(dataParseada => { //almacenamos la data para poder manipularla.
         
